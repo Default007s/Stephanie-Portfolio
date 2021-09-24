@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2B2948 !important;
+}
+
+.navbarList{
+    color: #2B2948;
+}
+
+.navbar-brand{
+    color: #2B2948;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.main{
+    margin-top: 25vh;
+}
+
+.main-Img{
+    width: 25vw;
+    height: 70vh;
+}
+
+.mainTxt{
+}
+
+.pinky{
+    font-family: 'Lora', serif;
+    color: #D30F6D;
+}
+
+.main-btn{
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+    border-color: #D30F6D !important;
+    color: #D30F6D !important;
+    background: none !important;
+}
+
+.main-btn:hover{
+    background: #D30F6D !important;
+    border-color: #D30F6D !important;
+    color: #fff !important;
+}
