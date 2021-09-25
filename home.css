@@ -31,7 +31,7 @@ h1{
 }
 
 .main{
-    height: 82vh;
+    height: 92vh;
 }
 
 .main-Img{
@@ -44,24 +44,82 @@ h1{
 
 .pinky{
     font-family: 'Lora', serif;
-    color: #D30F6D;
+    color: #fd3293;
+}
+
+.page-footer{
+    background-color: #1b1a2e;
 }
 
 .main-btn{
     padding-left: 5vw !important;
     padding-right: 5vw !important;
-    border-color: #D30F6D !important;
-    color: #D30F6D !important;
+    border-color: #fd3293 !important;
+    color: #fd3293 !important;
     background: none !important;
 }
 
 .main-btn:hover{
-    background: #D30F6D !important;
-    border-color: #D30F6D !important;
+    background: #fd3293 !important;
+    border-color: #fd3293 !important;
     color: #fff !important;
 }
 
 .cards-css{
     margin-top: 5vw !important;
     margin-bottom: 20vw !important;
+}
+
+.hero-section{
+    background-color: #fff;
+}
+
+.services{
+    width: 7vw;
+}
+
+.about-section{
+    background: url(./Logos/code-shadow.gif);
+    background-repeat: no-repeat;
+    background-position: -106px 50%;
+}
+
+@media (max-width: 700px) {
+    .about-col img{
+        width: 15vw !important;
+    }
+
+    .about-col p{
+        font-size: 3vw !important;
+    }
+
+    .about-section{
+        margin-top: 30vw !important;
+        margin-bottom: 30vw !important;
+    }
+
+    .social-icons{
+        width: 50vw !important;
+    }
+
+    .row .card-2{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .social-icons{
+        width: 45vw !important;
+        margin-top: -20vw;
+    }
+}
+
+@media (max-width: 420px) {
+    .about-txt{
+        font-size: 10vw !important;
+    }
+
+    .social-icons{
+        width: 50vw !important;
+        margin-top: -20vw;
+    }
 }
