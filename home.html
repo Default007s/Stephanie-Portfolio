@@ -13,25 +13,25 @@
     <!-- Navbar from Bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Stephanie Holt</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="./home.html">Stephanie Holt</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Projects
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" target="_blank" href="./Projects/jubilee-project/main.html">Jubilee Site</a></li>
                   <li><a class="dropdown-item" target="_blank" href="./Projects/rogue-project/index.html">Rogue Site</a></li>
                   <li><a class="dropdown-item" target="_blank" href="./Projects/recipe-project/default.html">Recipe Site</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="./Projects/Fragger/Index1.html">Fragger Game</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="./Projects/Memory Game/Testindex.html">Memory Game</a></li>
                 </ul>
               </li>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
@@ -39,8 +39,8 @@
             </li>
           </ul>
         </div>
-        </div>
-      </nav>
+      </div>
+    </nav>
 
     <!-- The scenery you see after landing on the page -->
     <div class="hero-section">
@@ -48,13 +48,13 @@
           <div class="flex-column-reverse flex-sm-row row d-flex justify-content-center">
           <div class="mt-5 mt-sm-0 left-sd col-md-6 text-sm-start text-center d-flex justify-content-center flex-column">
             <h1 class="pinky display-4">Stephanie Holt.</h1>
-            <p class="">I am a Web Developer, the Developer who Loves Clean code</p>
+            <p class="monospace">I am a Web Developer, the Developer who Loves Clean code</p>
             <div class="d-grid gap-2 d-md-block">
               <a class="mt-3 btn main-btn" target="_blank" href="https://www.fiverr.com/stephanieholt22" role="button">Hire Me!</a>
             </div>
           </div>
           <div class="right-sd col-md-6 text-center">
-            <img class="w-100" src="./Logos/Animation.gif" alt="">
+            <img class="w-100" src="./Animations/Coder.gif" alt="">
           </div>
         </div>
       </div>
@@ -106,6 +106,34 @@
                 </div>
               </div>
             </div>
+            
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 mt-3">
+              <div class="card">
+                <img class="card-img-top mt-3" src="./Images/Fragger.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="pinky card-title">Fragger Game</h5>
+                  <p class="card-text">Just a fun game to play when you are bored. In this game you have 3 lives like most other games. The main concept of the game is to cross the hurdles and reach the sea.</p>
+                  <div class="d-grid gap-2 d-md-block">
+                    <a class="btn main-btn" target="_blank" href="./Projects/Fragger/Index1.html" role="button">Show More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Card 5 -->
+            <div class="col-12 col-md-6 mt-3">
+              <div class="card">
+                <img class="card-img-top mt-3 w-575" src="./Images/Memory Game.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="pinky card-title">Memory Game</h5>
+                  <p class="card-text">Let's be honest we all love memory games. This one is like most others but puts a slightly different touch to the game which makes it very interesting to play.</p>
+                  <div class="d-grid gap-2 d-md-block">
+                    <a class="btn main-btn" target="_blank" href="./Projects/Memory Game/Testindex.html" role="button">Show More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
         </div>
     </div>
@@ -113,58 +141,59 @@
     <!-- About Section -->
     <div class="container about-section" id="about">
       <div class="row d-flex justify-content-center cards-css">
+        
+        <!-- GIF Section -->
         <div class="col-md-6">
-          <!-- <img src="./Logos/code-shadow.gif" alt=""> -->
         </div>
-        <!-- Html Column -->
+
+        <!-- I Work With section -->
         <div class="col-md-6">
           <h1 class=" text-white display-4 about-txt">I <span class="pinky">Work</span> with :</h1>
+          <!-- Html Row -->
           <div class="about-col">
-            <!-- <img src="./Images/html.png " class="img-fluid rounded services" alt=""> -->
-            <p class="text-white mt-4"><span class="pinky">HTML </span>For Structuring of the WebPage</p>
+            <p class="text-white monospace mt-4"><span class="pinky">HTML </span>For Structuring of the WebPage</p>
           </div>
-          
-          <!-- CSS Column -->
+          <!-- CSS Row -->
           <div class="about-col">
-            <!-- <img src="./Images/css.png " class="img-fluid rounded services" alt=""> -->
-            <p class="text-white mt-4"><span class="pinky">CSS </span>For Styling of the WebPage</p>
+            <p class="text-white monospace mt-4"><span class="pinky">CSS </span>For Styling of the WebPage</p>
           </div>
-
-          <!-- Bootstrap Column -->
+          <!-- Bootstrap Row -->
           <div class="about-col">
-            <!-- <img src="./Images/bootstrap.png" class="img-fluid rounded services" alt=""> -->
-            <p class="text-white mt-4"><span class="pinky">Bootstrap </span>For making WebPages Faster</p>
+            <p class="text-white monospace mt-4"><span class="pinky">Bootstrap </span>For making WebPages Faster</p>
           </div>
         </div>
         </div>
     </div>
 
-  <!-- Contact Section  -->
 
     <!-- Footer -->
     <footer class="page-footer font-small" id="contact">
 
+      <!-- Contact Section -->
       <div class="container pt-5 text-center">
         <h1 class="about-txt text-white display-5">You can <span class="pinky">Contact</span> me at:</h1>
+        
+        <!-- Social Media Links -->
         <div class="mt-5 mb-5">
-          <div class="d-flex justify-content-between">
-            <a href="https://www.facebook.com/stephanie.holt.526" class="social-icons "><img class="w-25" src="./Logos/facebook.png" alt=""></a>
-            <a href="mailto:stephaniemholt1@gmail.com" class="social-icons "><img class="w-25" src="./Logos/gmail.png" alt=""></a>
-            <a href="https://www.instagram.com/stephanie.holt.526/" class="social-icons "><img class="w-25" src="./Logos/instagram.png" alt=""><a>
-            <a href="https://www.linkedin.com/in/stephanie-holt-50b7a115a" class="social-icons "><img class="w-25" src="./Logos/linkedIn.png" alt=""></a>
+          <div class="mt-sm-0 mt-5 d-flex justify-content-between">
+            <a target="_blank" href="https://www.facebook.com/stephanie.holt.526" class="social-icons "><img class="w-25" src="./Logos/facebook.png" alt=""></a>
+            <a target="_blank" href="mailto:stephaniemholt1@gmail.com" class="social-icons "><img class="w-25" src="./Logos/gmail.png" alt=""></a>
+            <a target="_blank" href="https://www.instagram.com/stephanie.holt.526/" class="social-icons "><img class="w-25" src="./Logos/instagram.png" alt=""><a>
+            <a target="_blank" href="https://www.linkedin.com/in/stephanie-holt-50b7a115a" class="social-icons "><img class="w-25" src="./Logos/linkedIn.png" alt=""></a>
           </div>
         </div>
+
       </div>
 
       <!-- Copyright -->
-      <div class="footer-copyright text-white text-center py-3">© 2021 Copyright:
-        <a> Stephanie Holt</a>
+      <div class="footer-copyright text-white text-center py-3">© 2021 Copyright : <span class="monospace">Stephanie Holt</span>
       </div>
       <!-- Copyright -->
 
     </footer>
     <!-- Footer -->
 
+    <!-- Bootstrap Js cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>

@@ -79,9 +79,13 @@ h1{
 }
 
 .about-section{
-    background: url(./Logos/code-shadow.gif);
+    background: url(./Animations/code-shadow.gif);
     background-repeat: no-repeat;
     background-position: -106px 50%;
+}
+
+.monospace{
+    font-family: monospace !important;
 }
 
 @media (max-width: 700px) {
@@ -98,28 +102,14 @@ h1{
         margin-bottom: 30vw !important;
     }
 
-    .social-icons{
-        width: 50vw !important;
-    }
-
     .row .card-2{
         margin-top: 5vw;
         margin-bottom: 5vw;
-    }
-
-    .social-icons{
-        width: 45vw !important;
-        margin-top: -20vw;
     }
 }
 
 @media (max-width: 420px) {
     .about-txt{
         font-size: 10vw !important;
-    }
-
-    .social-icons{
-        width: 50vw !important;
-        margin-top: -20vw;
     }
 }
